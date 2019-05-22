@@ -1,3 +1,11 @@
+---
+title: "Home"
+date: "2015-01-01"
+output: html
+layout: home
+theme: "jekyll-theme-minimal"
+---
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/MrAwesome1996/project-portfolio/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
