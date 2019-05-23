@@ -16,11 +16,15 @@
   </head>
   <body>
     <div class="wrapper">
+      <!--this header is the sidebar-->
       <header>
+        <!--"include" adds the nav bar to top of screen-->
         {% include navigation.html %}
         <br>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <!--site title. Currently "Jacob Rothschild"-->
+        <h1 align = "center"; style = "font-family:noto sans; font-size:30px"><b><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></b></h1>
 
+        <!--Adds the picture under the site title. Currently the "logo" is a picture of me.-->
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" class="img-rounded" />
         {% endif %}
