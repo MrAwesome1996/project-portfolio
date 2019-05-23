@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Home
+layout: default
+title: Projects
 ---
 <!DOCTYPE html>
 <html>
@@ -69,13 +69,25 @@ a:hover {
 
 </style>
 </head>
-<body>
 
-<h2>Slide in Overlay from the Bottom</h2>
-<p>Hover over the image to see the effect.</p>
+<h1>Projects</h1>
+
+<body>
+  {% for project in site.projects %}
+    <h2> HELLO </h2>
+    <div class="container"; style = "float:left; padding:5px; width:33.33%">
+      <img src="{{ project.picture }}" alt="{{ project.title }}" class="img-rounded">
+      <a href="{{ project.url }}">
+        <div class="overlay">
+          <div class="text">{{ project.description }}</div>
+        </div>
+      </a>
+    </div>
+  {% endfor %}
+
 <div class="container"; style = "float:left; padding:5px; width:33.33%">
   <img src="/assets/images/watch.jpg" alt="Avatar" class="img-rounded">
-  <a href="/blog.html">
+  <a href="/projects/all-in-one">
     <div class="overlay">
       <div class="text">This is a watch. Real pretty</div>
     </div>

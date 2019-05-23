@@ -46,6 +46,10 @@
     Blog
     </a>
   
+    <a href="/projects.html" >
+    Projects
+    </a>
+  
 </nav>
 
         <br>
@@ -76,6 +80,14 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 <style>
+/* mouse over link */
+/* This prevents the overlay text from going bold when
+    the user is hovering. */
+a:hover {
+  color: black;
+  font-weight: normal;
+}
+
 .container {
   position: relative;
   width: 50%;
@@ -116,21 +128,47 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+
+
+.column {
+  float: left;
+  flex: 33.33%;
+  padding: 5px;
+}
+
 </style>
 </head>
 <body>
 
 <h2>Slide in Overlay from the Bottom</h2>
 <p>Hover over the image to see the effect.</p>
-
-<div class="container">
+<div class="container"; style = "float:left; padding:5px; width:33.33%">
   <img src="/assets/images/watch.jpg" alt="Avatar" class="img-rounded">
   <a href="/blog.html">
-  <div class="overlay">
-    <div class="text">This is a watch. Real pretty</div>
-  </div>
+    <div class="overlay">
+      <div class="text">This is a watch. Real pretty</div>
+    </div>
   </a>
 </div>
+<div class="container"; style = "float:left; padding:5px; width:33.33%">
+  <img src="/assets/images/watch.jpg" alt="Avatar" class="img-rounded">
+  <a href="/blog.html">
+    <div class="overlay">
+      <div class="text">This is a watch. Real pretty</div>
+    </div>
+  </a>
+</div>
+<div class="container"; style = "float:left; padding:5px; width:33.33%">
+  <img src="/assets/images/watch.jpg" alt="Avatar" class="img-rounded">
+  <a href="/blog.html">
+    <div class="overlay">
+      <div class="text">This is a watch. Real pretty</div>
+    </div>
+  </a>
+</div>
+
+
 
 </body>
 </html>
