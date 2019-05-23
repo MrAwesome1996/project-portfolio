@@ -15,10 +15,8 @@
 <link rel="canonical" href="http://localhost:4000/" />
 <meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="Jacob Rothschild" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2015-01-01T00:00:00-05:00" />
 <script type="application/ld+json">
-{"name":"Jacob Rothschild","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@type":"WebSite","url":"http://localhost:4000/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/CompositePhotoBlue.jpg"}},"headline":"Home","dateModified":"2015-01-01T00:00:00-05:00","datePublished":"2015-01-01T00:00:00-05:00","@context":"https://schema.org"}</script>
+{"name":"Jacob Rothschild","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@type":"WebSite","url":"http://localhost:4000/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/CompositePhotoBlue.jpg"}},"headline":"Home","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     <link rel="stylesheet" href="/assets/css/style.css?v=">
@@ -51,8 +49,9 @@
 </nav>
 
         <br>
-        <!--site title. Currently "Jacob Rothschild"-->
-        <h1 align = "center"; style = "font-family:noto sans; font-size:30px"><b><a href="http://localhost:4000/">Jacob Rothschild</a></b></h1>
+        <!--site title. Currently "Jacob Rothschild"
+            original href="http://localhost:4000/"-->
+        <h1 align = "center"; style = "font-family:noto sans; font-size:30px"><b><a href="/about/">Jacob Rothschild</a></b></h1>
 
         <!--Adds the picture under the site title. Currently the "logo" is a picture of me.-->
         
@@ -69,42 +68,72 @@
       </header>
       <section>
 
-      <h2 id="welcome-to-github-pages">Welcome to GitHub Pages</h2>
+      <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
 
-<p>You can use the <a href="https://github.com/MrAwesome1996/project-portfolio/edit/master/index.md">editor on GitHub</a> to maintain and preview the content for your website in Markdown files.</p>
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
-<p>Whenever you commit to this repository, GitHub Pages will run <a href="https://jekyllrb.com/">Jekyll</a> to rebuild the pages in your site, from the content in your Markdown files.</p>
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  opacity: 0.1;
+}
 
-<h3 id="markdown">Markdown</h3>
+.container:hover .overlay {
+  height: 100%;
+  opacity: 0.9;
+}
 
-<p>Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for</p>
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
 
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Syntax highlighted code block
+<h2>Slide in Overlay from the Bottom</h2>
+<p>Hover over the image to see the effect.</p>
 
-<span class="gh"># Header 1</span>
-<span class="gu">## Header 2</span>
-<span class="gu">### Header 3</span>
-<span class="p">
--</span> Bulleted
-<span class="p">-</span> List
-<span class="p">
-1.</span> Numbered
-<span class="p">2.</span> List
+<div class="container">
+  <img src="/assets/images/watch.jpg" alt="Avatar" class="img-rounded">
+  <a href="/blog.html">
+  <div class="overlay">
+    <div class="text">This is a watch. Real pretty</div>
+  </div>
+  </a>
+</div>
 
-<span class="gs">**Bold**</span> and _Italic_ and <span class="sb">`Code`</span> text
-
-<span class="p">[</span><span class="nv">Link</span><span class="p">](</span><span class="sx">url</span><span class="p">)</span> and !<span class="p">[</span><span class="nv">Image</span><span class="p">](</span><span class="sx">src</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p>For more details see <a href="https://guides.github.com/features/mastering-markdown/">GitHub Flavored Markdown</a>.</p>
-
-<h3 id="jekyll-themes">Jekyll Themes</h3>
-
-<p>Your Pages site will use the layout and styles from the Jekyll theme you have selected in your <a href="https://github.com/MrAwesome1996/project-portfolio/settings">repository settings</a>. The name of this theme is saved in the Jekyll <code class="highlighter-rouge">_config.yml</code> configuration file.</p>
-
-<h3 id="support-or-contact">Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/categories/github-pages-basics/">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+</body>
+</html>
 
 
       </section>
