@@ -1,12 +1,48 @@
 ---
-layout: default
 ---
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
 
-<h1>{{ page.title }}</h1>
-<img src={{ page.picture }} alt={{ page.title }} class="img-rounded">
-{{ content }}
+<!-- <h1>{{ page.title }}</h1> -->
+<!-- <img src={{ page.picture }} alt={{ page.title }} class="img-rounded" style="float:left; padding:5px; width:33.33%"> -->
+<!-- {{ content }} -->
+
+
+<body>
+  <div class="wrapper">
+    <!--this header is the sidebar-->
+    <header>
+      <!--"include" adds the nav bar to top of screen-->
+      {% include navigation.html %}
+      <br>
+      <!--page title-->
+      <h1 align = "center"; style = "font-family:noto sans; font-size:30px"><b><a href="/about/">{{ page.title }}</a></b></h1>
+
+      <!--Adds the picture under the site title. Currently the "logo" is a picture of me.-->
+      {% if page.picture %}
+        <img src={{ page.picture }} alt={{ page.title }} class="img-rounded" style="float:left; width:100%">
+      {% endif %}
+
+      <p>{{ page.description }}</p>
+    </header>
+    <section>
+
+    {{ content }}
+
+    </section>
+
+  </div>
+</body>
