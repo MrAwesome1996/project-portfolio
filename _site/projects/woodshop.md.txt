@@ -1,0 +1,72 @@
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Woodshop | Jacob Rothschild</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Woodshop" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I made a woodworking shop!" />
+<meta property="og:description" content="I made a woodworking shop!" />
+<link rel="canonical" href="http://localhost:4000/projects/woodshop.md.txt" />
+<meta property="og:url" content="http://localhost:4000/projects/woodshop.md.txt" />
+<meta property="og:site_name" content="Jacob Rothschild" />
+<script type="application/ld+json">
+{"description":"I made a woodworking shop!","@type":"WebPage","url":"http://localhost:4000/projects/woodshop.md.txt","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/headshot.jpg"}},"headline":"Woodshop","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+
+<!-- <h1>Woodshop</h1> -->
+<!-- <img src=/assets/images/woodshopTable.jpg alt=Woodshop class="img-rounded" style="float:left; padding:5px; width:33.33%"> -->
+<!-- Remember that time I made that table?
+ -->
+
+
+<body>
+  <div class="wrapper">
+    <!--this header is the sidebar-->
+    <header>
+      <!--"include" adds the nav bar to top of screen-->
+      <nav>
+  
+    <a href="/" >
+      <button type="button" class="btn btn-primary">Home</button>
+    </a>
+  
+    <a href="/projects.html" >
+      <button type="button" class="btn btn-primary">Projects</button>
+    </a>
+  
+</nav>
+
+      <br>
+      <!--page title-->
+      <h1 align = "center"; style = "font-family:noto sans; font-size:30px"><b>Woodshop</b></h1>
+      
+      <!--Adds the picture under the site title. Currently the "logo" is a picture of me.-->
+      
+        <img src=/assets/images/woodshopTable.jpg alt=Woodshop class="img-rounded" style="float:left; width:100%">
+      
+
+      <p>I made a woodworking shop!</p>
+    </header>
+    <section>
+
+    Remember that time I made that table?
+
+
+    </section>
+
+  </div>
+</body>

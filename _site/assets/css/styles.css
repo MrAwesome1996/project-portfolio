@@ -266,8 +266,7 @@ a {
   text-decoration: none; }
 
 a:hover, a:focus {
-  color: #069;
-  font-weight: bold; }
+  color: #069; }
 
 a small {
   font-size: 11px;
