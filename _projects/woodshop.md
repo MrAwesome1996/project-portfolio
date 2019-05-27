@@ -30,6 +30,7 @@ With a basic design ready, I continued with a series of sketches to flesh out th
 
 Finally, I drew out a dimensioned sketch of all the parts I needed to make, noting how much was required of each. This made it very easy to keep track of my progress and next steps. Now I was ready to get started.
 
+## Construction
 The plywood for the table top surface and bottom were already cut at the store. Using a circular saw, I measured, marked, and cut the 1in x 3in planks. I glued the walls of the "torsion box" tabletop to the bottom of the birch plywood panel, and reinforced this glue-up with brad nails. I then began to build up the inner framework using a similar technique. I dry fit each segment to ensure that I hadn't made a mistake, applied glue, put the segment in place, and reinforced it with brad nails. The completed framework can be seen in the photo below. I cut down some scrap pieces and created sockets for the 3in x 3in legs I intended to use, seen installed for a test fit in the picture below.
 
 <br>
