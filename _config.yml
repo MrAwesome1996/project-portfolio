@@ -16,8 +16,8 @@
 title: Jacob Rothschild
 email: rothschj@union.edu
 logo: /assets/images/headshot.jpg
-description: >- # 
-resume:
+description: >- #
+resume: /Jacob%20Rothschild%20Resume%205-20-19.pdf
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
