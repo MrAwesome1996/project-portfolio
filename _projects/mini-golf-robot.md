@@ -2,7 +2,7 @@
 layout: project
 title: Mini Golf Robot
 picture: /assets/images/miniGolfRobot/miniGolfRobot.png
-description: "For the course <i>Design of Mechanical Systems</i>, we were tasked with designing and constructing a robot to be used for competing in mini-golf against the professor's 6-year-old daughter. I led the group responsible for the driving subsystem."
+description: "For the course <i>Design of Mechanical Systems</i>, we were tasked with designing and constructing a robot to be used in a mini-golf competition against the professor's 6-year-old daughter. I led the group responsible for the driving subsystem."
 report-directory: /assets/pdf/Mini_Golf_Robot-Design_Report(FinalDraft).pdf
 ---
 
