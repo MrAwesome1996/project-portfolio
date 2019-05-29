@@ -2,7 +2,7 @@
 layout: project
 title: All-In-One CNC
 picture: /assets/images/CNC1.jpg
-description: "For my mechanical engineering senior capstone project at Union College I elected to design and construct a new type of CNC machine. I found that, in spite of increased popularity of CNC technologies, and in spite of the similarities between types of CNC machines, the market still lacked an affordable machine that could accomplish multiple tasks. My hope was to fill that gap."
+description: "A recipient of the General Electric Energy Steinmetz Award for best senior capstone project in mechanical engineering, my senior project at Union College was to design and construct a new type of CNC machine. I found that, in spite of increased popularity of CNC technologies, and in spite of the similarities between types of CNC machines, the market still lacked an affordable machine that could accomplish multiple tasks. My hope was to fill that gap."
 report-directory: /assets/pdf/AllInOne-FinalReport.pdf
 ---
 
