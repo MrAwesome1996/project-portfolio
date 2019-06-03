@@ -68,7 +68,7 @@ a:hover {
 
 <body>
   {% for project in site.projects %}
-    <div class="container"; style = "float:left; padding:5px; width:33.33%">
+    <div class="container"; style = "display:inline-block; padding:5px; width:33.33%; margin-right:-3px">
       <img src="{{ project.picture }}" alt="{{ project.title }}" class="img-rounded">
       <a href="{{ project.url }}">
         <div class="overlay">
