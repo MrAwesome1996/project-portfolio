@@ -17,11 +17,8 @@ The main mechanism in this design is the Robert's linkage, a four-bar linkage th
 ![Ladder Climber CAD Model](/assets/images/ladderClimber/isometric.PNG)
 <p style="text-align:center; width:100%; font-size:12px">A CAD design assembly, modeled in SolidWorks, depicting the full construction of the ladder climber.</p>
 
-
-<video id="Robert's Linkage Demo" src="robertsDemo.MOV" width="426" height="240" controls muted></video>
-
 <video width="426" height="240" controls muted>
-  <source src="/assets/video/robertsDemo.MOV" type="video/mov">
+  <source src="/assets/video/robertsDemo.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
