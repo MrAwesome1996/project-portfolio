@@ -7,7 +7,7 @@ report-directory:
 ---
 
 ## Overview
-In the summer of 2016 I took it upon myself to assemble a suitable space for woodworking in my parents' basement. Plenty of storage was already prepared and simply needed to be organized, but we were missing an essential component - a workbench. This being my first foray into design and construction, I took inspiration from the YouTube creator "The King of Random," who had recently posted a video of his own workbench build. What made his table special was a recessed cutout in the table that allowed the user to insert tools for use as a routing table or a low-precision table saw. This feature is demonstrated in the video below.
+In the summer of 2016 I took it upon myself to assemble a suitable space for woodworking in my parents' basement. Plenty of storage was already prepared and simply needed to be organized, but we were missing an essential component - a workbench. This being my first foray into design and construction, I took inspiration from the YouTube creator "The King of Random," who had recently posted a video of his own workbench build. What made his table special was a recessed cutout in the table that allowed the user to insert tools for use as a routing table or a low-precision table saw. This feature is demonstrated in the video below where I swap out a jigsaw table insert for a router.
 
 <video width="426" height="240" controls muted>
   <source src="/assets/video/tableDemo.mp4" type="video/mp4">
